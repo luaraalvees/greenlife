@@ -1,0 +1,445 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("Big_Shoulders_Display\,Poppins/");
+}
+
+.caixa_cabecario {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #679273;
+    padding: 10px 20px;
+    width: 100%;
+    height: 90px;
+}
+
+#logo_cabeçario {
+    margin-top: 10px;
+    width: 82px;
+    height: 110px;
+}
+
+
+.caixa_link_paginas {
+    display: flex;
+}
+
+
+.link_paginas {
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.link_paginas li a {
+    color: #D9D9D9;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+
+.link_paginas li a:hover {
+    color: #FFFFFF;
+    /* Muda a cor ao passar o mouse */
+
+}
+
+
+.btn_doar {
+    border-radius: 4px;
+    background: #008041;
+    width: 102px;
+    height: 38px;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+
+h1 {
+    color: var(--Cor-Primria, #008041);
+    font-family: "Big Shoulders Display";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    font-size: black;
+    padding: 48px;
+}
+
+h2 {
+    color: var(--Cor-de-Apoio-1, #00806B);
+    font-family: "Big Shoulders Display";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+p {
+    font-family: "Poppins";
+}
+
+.texto{
+    padding: 0px 64px;
+}
+.container_card_esquerdo {
+    display: flex;
+    align-items: center;
+}
+
+.container_card_esquerdo h2 {
+    white-space: pre;
+    text-align: end;
+}
+
+.caixa_card_esquerdo {
+    background-color: #F0ECEC;
+    width: 70%;
+    display: flex;
+    padding: 0px 0px 0px 72px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 24px;
+    border-radius: 0px 30px 30px 0px;
+    outline: #008041 solid 4px
+}
+
+.caixa_card_esquerdo2{
+    background-color: #008041;
+    width: 70%;
+    display: flex;
+    padding: 0px 0px 0px 72px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 24px;
+    border-radius: 0px 30px 30px 0px;
+    color: #FFFFFF;
+    
+}
+
+.img_card {
+    border-radius: 30px;
+}
+
+.section_quem_somos {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 72px 0px;
+}
+
+.container_card_direito {
+    display: flex;
+    align-items: center;
+}
+
+.container_card_direito h2 {
+    margin-left: 72px;
+    white-space: normal;
+    text-align: start;
+}
+
+.caixa_card_direito {
+    background-color: #008041;
+    color: #FFFFFF;
+    width: 70%;
+    display: flex;
+    padding: 0px 72px 0px 0px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.caixa_card_direito2 {
+    background-color: #F0ECEC;
+    width: 80%;
+    display: flex;
+    padding: 0px 72px 0px 0px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 30px 0px 0px 30px;
+    outline: #008041 solid 4px
+}
+/*.................................................... inicio rodape..............................................*/
+
+.footer {
+    background-color: #00806B;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+
+
+
+.menu_rp {
+    color: #F0ECEC;
+}
+
+
+
+
+.social_rp {
+    color: #F0ECEC;
+    margin-top: -30px;
+}
+
+
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    
+}
+
+
+
+
+.footer-container>div {
+    flex: 1;
+    min-width: 250px;
+}
+
+
+
+
+/* Logo e Informações */
+.footer-logo {
+    width: 220px;
+    height: 180px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+
+
+
+
+.footer-logo-info p {
+    margin: 8px 0px 12px 0px;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    white-space: pre;
+}
+
+
+
+
+.footer-logo-info i {
+   
+    white-space: pre;
+}
+
+
+
+
+/* Menu */
+.footer-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.footer-menu {
+    margin-left: 150px;
+}
+
+
+
+
+.footer-menu ul li {
+    margin: 10px 0;
+}
+
+
+
+
+.footer-menu ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+
+
+.footer-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* Social */
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
+.footer-social ul li {
+    margin: 10px 0;
+}
+
+
+
+
+.footer-social ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+
+
+.footer-social ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* Formulário */
+.footer-form h3 {
+    margin-bottom: 30px;
+    font-size: 18px;
+
+
+}
+
+
+
+
+
+
+.form-group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+
+
+.form-group input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    width: 188px;
+}
+
+
+
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    margin: 10px 0;
+    resize: none;
+
+
+
+
+}
+
+
+
+
+.form-check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+
+
+
+.btn-submit {
+    background-color: #008041;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+
+
+.btn-submit:hover {
+    background-color: #005A2E;
+}
+
+
+
+
+/* Rodapé inferior */
+.footer-bottom {
+    padding: 16px;
+    font-size: 12px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 55px;
+}
+
+
+
+
+
+
+
+
+.footer-bottom a {
+    background-color: #006857;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.redes{
+    margin-top: 202px;
+  
+}
+
+
